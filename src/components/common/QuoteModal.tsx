@@ -37,7 +37,7 @@ const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, productName, p
     setError('');
 
     try {
-      const response = await fetch('/api/send-quote', {
+      const response = await fetch('https://garventerprises.onrender.com/api/send-quote', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
