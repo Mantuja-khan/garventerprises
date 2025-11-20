@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# SEO optimized for packaging material manufacturer
+Sitemap: https://packagepro.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow important pages for packaging material manufacturer SEO
+Allow: /about
+Allow: /products
+Allow: /authorized
+Allow: /gallery
+Allow: /contact
+Allow: /products/*
