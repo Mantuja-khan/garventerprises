@@ -93,7 +93,7 @@ const Contact = () => {
     setError('');
     
     try {
-      const response = await fetch('http://localhost:3001/api/send-contact', {
+      const response = await fetch('http://localhost:3003/api/send-contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
