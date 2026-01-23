@@ -37,7 +37,7 @@ const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, productName, p
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3003/api/send-quote', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/send-quote`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
