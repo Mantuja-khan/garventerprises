@@ -113,7 +113,7 @@ const Header: React.FC = () => {
       { name: 'MASKING PRODUCT', slug: 'masking-product' },
       { name: 'COMPONENT AND ACCESSORIES', slug: 'component-and-accessories' }
     ],
-    'MILESTONE': [
+    'MILES': [
       { name: 'CUTTER KNIVES', slug: 'cutter-knives' },
       { name: 'MANUAL TOOLS', slug: 'manual-tools' },
       { name: 'PNEUMATIC TOOLS', slug: 'm-pneumatic-tools' },
